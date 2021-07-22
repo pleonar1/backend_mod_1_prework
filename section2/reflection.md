@@ -33,11 +33,23 @@ I have looked up a few things about "unless" statements that seem to differ slig
 ### Methods
 
 1. In your own words, what is the purpose of a method?
-
+  - The purpose of a method is to be able to code much faster by storing information to be called upon multiple times without having to always retype redundant lines of code.
 1. Create a method named `hello` that will print `"Sam I am"`.
+def hello(hey)
+  puts "Sam I am"
+end
+
+hello(hey)
+
 
 1. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
-
+def hello_someone(name)
+  puts "#(name) I am"
+end
 1. How would you call or execute the method that you created above?
-
+def hello_someone(name)
+  puts "#{name} I am"
+end
+hello_someone("Sam")
 1. What questions do you have about methods in Ruby?
+- I would honestly just like more practice.  I will understand it so well and then wake up and have forgotten it lol.  I think the way I have been working trial and error in irb and repl have been very beneficial.
