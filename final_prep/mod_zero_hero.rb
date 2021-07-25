@@ -83,7 +83,7 @@ def assess_situation(danger_level, save_the_day, bad_excuse)
   elsif danger_level < 50 && danger_level > 10
     puts save_the_day
   else danger_level < 10
-    puts "Meh, Hard pass."
+    puts "Meh, Hard pass."  
   end
 end
 

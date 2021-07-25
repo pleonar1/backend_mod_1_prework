@@ -48,7 +48,7 @@ def fizzbuzz(num_1, num_2, range)
       puts 'fizzbuzz'
 ###OR if i percentage num_1 is the only one equal to 0 then,
     elsif i % num_1 === 0
-#print this string instead
+#print this string instead  
       puts 'fizz'
 #OR if i percentage num_2 is the only one equal to 0 then,
     elsif i % num_2 === 0
